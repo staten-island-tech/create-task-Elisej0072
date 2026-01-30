@@ -1,6 +1,6 @@
 const numbers = [1, 2, 3, 4, 5, 6];
 
-
+//"" for console log
 
 function getRandomInt(min, max) {
   const minCeiled = Math.ceil(min);
