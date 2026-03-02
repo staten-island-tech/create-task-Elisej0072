@@ -1,8 +1,8 @@
 const dieone = [1, 2, 3, 4, 5, 6];
 const dietwo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-let rollone = Math.floor(Math.random() * dieone.length);
-let rolltwo = Math.floor(Math.random() * dietwo.length);
+let rollone = Math.ceil(Math.random() * dieone.length);
+let rolltwo = Math.ceil(Math.random() * dietwo.length);
 let results = [rollone, rolltwo];
 
 function rollDice() { 
@@ -12,9 +12,6 @@ results.forEach((result) => results.push(result))
 }
 // console.log(results);
 
-if(rollone === 0){
-console.log("You lost your die :( ");
-}
 if(rollone === 1){
 console.log("You rolled a one!");
 }
@@ -34,9 +31,6 @@ if (rollone === 6) {
 console.log("You rolled a six!");
 }
 
-if(rolltwo === 0){
-console.log("You lost your die :( ");
-}
 if(rolltwo === 1){
 console.log("You rolled a one!");
 }
