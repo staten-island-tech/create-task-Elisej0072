@@ -12,7 +12,9 @@ results.forEach((result) => results.push(result))
 }
 // console.log(results);
 
-
+if(rollone === 0){
+console.log("You lost your die :( ");
+}
 if(rollone === 1){
 console.log("You rolled a one!");
 }
@@ -32,7 +34,9 @@ if (rollone === 6) {
 console.log("You rolled a six!");
 }
 
-
+if(rolltwo === 0){
+console.log("You lost your die :( ");
+}
 if(rolltwo === 1){
 console.log("You rolled a one!");
 }
