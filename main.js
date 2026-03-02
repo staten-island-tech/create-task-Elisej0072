@@ -1,78 +1,65 @@
 const dieone = [1, 2, 3, 4, 5, 6];
 const dietwo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-function rollDice() {
 let rollone = Math.floor(Math.random() * dieone.length);
 let rolltwo = Math.floor(Math.random() * dietwo.length);
-
-
-console.log(rollone);
-console.log(rolltwo);
-
 let results = [rollone, rolltwo];
+
+function rollDice() { 
+rollone.forEach((roll) => rollone.push(roll))
+rolltwo.forEach((roll) => rolltwo.push(roll))
 results.forEach((result) => results.push(result))
 }
 console.log(results);
 
-
-
-
-// function getRandomInt(min, max) {
-//   const minCeiled = Math.ceil(min);
-//   const maxFloored = Math.floor(max);
-//   return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled);
-// }
-// console.log(getRandomInt(1, 7));
-
-
-if(resultone === 1){
+if(rollone === 1){
 console.log("You rolled a one!");
 }
-if (resultone === 2) {
+if (rollone === 2) {
 console.log("You rolled a two!!");
 }
-if (resultone === 3) {
+if (rollone === 3) {
 console.log("You rolled a three!");
 }
-if (resultone === 4) {
+if (rollone === 4) {
 console.log("You rolled a four!!");
 }
-if (resultone === 5) {
+if (rollone === 5) {
 console.log("You rolled a five!");
 }
-if (resultone === 6) {
+if (rollone === 6) {
 console.log("You rolled a six!");
 }
 
 
-if(resulttwo === 1){
+if(rolltwo === 1){
 console.log("You rolled a one!");
 }
-if (resulttwo === 2) {
+if (rolltwo === 2) {
 console.log("You rolled a two!!");
 }
-if (resulttwo === 3) {
+if (rolltwo === 3) {
 console.log("You rolled a three!");
 }
-if (resulttwo === 4) {
+if (rolltwo === 4) {
 console.log("You rolled a four!!");
 }
-if (resulttwo === 5) {
+if (rolltwo === 5) {
 console.log("You rolled a five!");
 }
-if (resulttwo === 6) {
+if (rolltwo === 6) {
 console.log("You rolled a six!!");
 }
-if (resulttwo === 7) {
+if (rolltwo === 7) {
 console.log("You rolled a seven!");
 }
-if (resulttwo === 8) {
+if (rolltwo === 8) {
 console.log("You rolled an eight!!");
 }
-if (resulttwo === 9) {
+if (rolltwo === 9) {
 console.log("You rolled a nine!");
 }
-if (resulttwo === 10) {
+if (rolltwo === 10) {
 console.log("You rolled a ten!");
 }
 
