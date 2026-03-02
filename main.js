@@ -10,7 +10,8 @@ rollone.forEach((roll) => rollone.push(roll))
 rolltwo.forEach((roll) => rolltwo.push(roll))
 results.forEach((result) => results.push(result))
 }
-console.log(results);
+// console.log(results);
+
 
 if(rollone === 1){
 console.log("You rolled a one!");
